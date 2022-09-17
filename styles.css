@@ -223,7 +223,13 @@ body {
     margin: 0 auto;
     padding: 15px 25px;
     letter-spacing: 1px;
+    height: 105vh;
 
+}
+
+#about-us p {
+    position: relative;
+    top: 60px;
 }
 
 #about-us a {
