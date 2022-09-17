@@ -353,3 +353,10 @@ body {
         height: 155vh;
     }
 }
+
+@media (max-width: 425px) {
+    #about-us {
+        font-size: 25px;
+        height: 165vh;
+    }
+}
