@@ -362,6 +362,10 @@ body {
         font-size: 25px;
         height: 194vh;
     }
+
+    .pista-img {
+        width: 80vw;
+    }
 }
 
 #adivinanza {
@@ -369,6 +373,17 @@ body {
     display: flex;
     flex-direction: column;
     z-index: -1;
+    top: 800px;
+}
+
+.adivinanza__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+#adivinanza p {
+    margin-top: 80px;
 }
 
 #adivinanza input {
@@ -406,9 +421,35 @@ button {
     margin: 0 auto;
 }
 
-.correcto {
+.resultado {
+    position: relative;
+    margin: 0 auto;
+    bottom: 90px;
     font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 35px;
+    letter-spacing: 3px;
+    font-size: 45px;
+}
+
+.incorrecto {
+
+
+    color: rgb(151, 25, 25);
+
+
+}
+
+
+.correcto {
+
     color: rgb(25, 151, 25);
+
+}
+
+
+.pista-img {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+    /* height: 100%; */
 }

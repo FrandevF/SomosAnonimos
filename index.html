@@ -36,7 +36,9 @@
                   >
                 </li>
                 <li class="menu__inside">
-                  <a href="#" class="menu__link menu__link--inside">Pistas</a>
+                  <a href="#adivinanza" class="menu__link menu__link--inside"
+                    >Pistas</a
+                  >
                 </li>
               </ul>
             </li>
@@ -104,31 +106,39 @@
       </section>
 
       <section id="adivinanza">
-        <h1>En qué lugar de la escuela se encontró el cuerpo?</h1>
-        <p>
-          Queres saber dónde se encontró el cuerpo? deberías, ya que allí habrá
-          pistas para poder seguir esta historia... <br /><br /><br />
-          ADIVINANZA ADIVINANZA ADIVINANZA ADIVINANZA ADIVINANZA ADIVINANZA
-          ADIVINANZA <br />
+        <div class="adivinanza__container">
+          <h1>En qué lugar de la escuela se encontró el cuerpo?</h1>
+          <p>
+            Queres saber dónde se encontró el cuerpo? deberías, ya que allí
+            habrá pistas para poder seguir esta historia... <br /><br /><br />
+
+            A continuación veras una adivinanza, esta te va a decir en qué parte
+            de la escuela se encontró el cuerpo, coloca tu respuesta y seguí las
+            instrucciones <br /><br /><br />
+            ADIVINANZA ADIVINANZA ADIVINANZA ADIVINANZA ADIVINANZA ADIVINANZA
+            ADIVINANZA <br />
+            <br />
+            <br />
+          </p>
+          <form action="">
+            <input
+              type="text"
+              name=""
+              id="respuesta"
+              placeholder="Colocá acá tu respuesta"
+            />
+          </form>
+          <button class="btn">Enviar Respuesta</button>
           <br />
           <br />
-        </p>
-        <form action="">
-          <input
-            type="text"
-            name=""
-            id="adiv"
-            placeholder="Colocá acá tu respuesta"
-          />
-          <button>Enviar Respuesta</button>
-        </form>
-        <br />
-        <br />
-        <p>
-          Si la respuesta es correcta, salta un mensaje de
-          <span class="correcto">CORRECTO</span>, y te da instrucciones de como
-          ir a buscar las pistas a la escuela.
-        </p>
+          <div class="resultado"></div>
+          <div class="pista-unlocked"></div>
+          <p class="bien-mal">
+            Si la respuesta es correcta, salta un mensaje de
+            <span class="correcto">CORRECTO</span>, y te da instrucciones de
+            como ir a buscar las pistas a la escuela.
+          </p>
+        </div>
       </section>
     </div>
     <script src="JS/app.js"></script>

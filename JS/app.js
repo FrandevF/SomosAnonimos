@@ -48,3 +48,26 @@
     list.classList.toggle("menu__links--show");
   });
 })();
+
+const respuesta = document.getElementById("respuesta");
+const pista = document.querySelector(".pista-unlocked");
+const btn = document.querySelector(".btn");
+
+btn.addEventListener("click", () => {
+  let res = respuesta.value;
+  let bien = "Correcta";
+  let mal = "Incorrecta";
+  if (res === "1") {
+    document.querySelector(
+      ".resultado"
+    ).innerHTML = `<p class="correcto">Respuesta: ${bien}</p>`;
+    pista.innerHTML = `<h2 class="pista-unlocked">Pista desbloqueada</h2>
+    <p class="pista">Pista: 1</p>
+    <p>Sí, es ese lugar, acá te dejo una foto para que te ubiques bien, allí vas a poder encontrar un código, el cual deberas colocar más abajo.</p><br><img src="assets/place.png" alt="pista1" class="pista-img">`;
+  } else {
+    document.querySelector(
+      ".resultado"
+    ).innerHTML = `<p class="incorrecto">Respuesta: ${mal}</p>`;
+    pista.innerHTML = `<h2 class="pista-unlocked">Volvé a intentarlo, si lo haces bien desbloqueas una pista</h2>`;
+  }
+});
