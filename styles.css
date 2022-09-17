@@ -357,16 +357,6 @@ body {
     }
 }
 
-@media (max-width: 425px) {
-    #about-us {
-        font-size: 25px;
-        height: 194vh;
-    }
-
-    .pista-img {
-        width: 80vw;
-    }
-}
 
 #adivinanza {
     letter-spacing: 1.5px;
@@ -452,4 +442,16 @@ button {
     margin: 0 auto;
     width: 400px;
     /* height: 100%; */
+}
+
+@media (max-width: 425px) {
+    #about-us {
+        font-size: 25px;
+        height: 194vh;
+    }
+
+    .pista-img {
+        width: 200px;
+        height: 280px;
+    }
 }
