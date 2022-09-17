@@ -12,7 +12,8 @@ cursive; */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,700&display=swap');
@@ -20,7 +21,7 @@ cursive; */
 
 body {
     background-color: #f2f2f2;
-    scroll-behavior: smooth;
+
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,7 +39,7 @@ body {
 
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-
+    letter-spacing: 1px;
 }
 
 .menu__container {
@@ -213,6 +214,27 @@ body {
 #about-us {
     z-index: -1;
     position: relative;
+    top: 114.8vh;
+    background-color: rgba(68, 66, 66, .7);
+    font-size: 28px;
+    font-family: 'Indie Flower',
+        cursive;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+
+}
+
+#about-us a {
+    text-decoration: none;
+    color: #079e28;
+    letter-spacing: 1.5px;
+}
+
+#adivinanza {
+
+    position: relative;
     top: 100vh;
     background-color: rgba(68, 66, 66, .7);
     font-size: 28px;
@@ -221,7 +243,6 @@ body {
     color: #FFF;
     margin: 0 auto;
     padding: 15px 25px;
-
 }
 
 .menu__img {
