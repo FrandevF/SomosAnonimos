@@ -257,6 +257,9 @@ body {
 }
 
 @media (max-width: 800px) {
+
+
+
     .menu__hamburguer {
         display: flex;
     }
@@ -359,4 +362,53 @@ body {
         font-size: 25px;
         height: 194vh;
     }
+}
+
+#adivinanza {
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+#adivinanza input {
+    background-color: rgba(94, 31, 31, 0.9);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: .2px solid rgba(15, 10, 10, 0.9);
+    border-radius: 4px;
+}
+
+#adivinanza button {
+    background-color: rgba(53, 23, 23, 0.9);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: .2px solid rgba(15, 10, 10, 0.9);
+    border-radius: 4px;
+}
+
+#adivinanza input,
+button {
+    width: 250px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.correcto {
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: rgb(25, 151, 25);
 }
