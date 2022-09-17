@@ -33,7 +33,7 @@ body {
     height: 70px;
     width: 100%;
     position: fixed;
-    background-color: rgba(17, 16, 16, 0.4);
+    background-color: rgba(17, 16, 16, 0.9);
     color: #FFF;
 
     font-family: 'Poppins', sans-serif;
@@ -211,6 +211,7 @@ body {
 }
 
 #about-us {
+    z-index: -1;
     position: relative;
     top: 100vh;
     background-color: rgba(68, 66, 66, .7);
