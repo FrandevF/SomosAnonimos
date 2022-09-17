@@ -338,7 +338,7 @@ body {
 @media (max-width: 600px) {
     .menu__logo {
         font-size: 30px;
-        margin-left: 25px;
+        margin-left: 20px;
     }
 
     .flecha {
