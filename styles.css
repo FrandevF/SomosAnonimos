@@ -456,7 +456,18 @@ button {
         height: 280px;
     }
 
+    .option {
+        font-size: 30px;
+    }
 
+    .opciones {
+        font-size: 23px;
+    }
+
+    .yanose {
+        font-size: 27px;
+        color: #f2f2f2;
+    }
 }
 
 /* text */
