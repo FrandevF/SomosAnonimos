@@ -16,13 +16,13 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Maratón</title>
+    <title>Somos Anónimos</title>
   </head>
   <body>
     <div id="main-container">
       <nav class="menu">
         <section class="menu__container">
-          <h1 class="menu__logo">SomosAnonimos</h1>
+          <h1 class="menu__logo">SomosAnónimos</h1>
 
           <ul class="menu__links">
             <li class="menu__item menu__item--show">
@@ -132,7 +132,7 @@
             instrucciones</h3> <br /><br /><br />
             <h2 class="h22">Adivinanza:</h2>
             <div class="adivinanzaL instr">
-            <p>Subiendo escaleras...<br><br>Allí no se sabe que hay, la misteriosa puerta la cual nunca se abrirá...<br><br>Muchos cálculos por ahí cerca, algunos dicen que son físicos, otros dicen que son químicos..</p>
+            <p class="p-border">Subiendo escaleras...<br><br>Allí no se sabe que hay, la misteriosa puerta la cual nunca se abrirá...<br><br>Muchos cálculos por ahí cerca, algunos dicen que son físicos, otros dicen que son químicos..</p>
             <div class="opciones opcion1"><hr><span class="option">Opción 1:</span>Escalera principal de la escuela, la cual lleva al segundo piso.<hr></div>
             <div class="opciones opcion2"><span class="option">Opción 2:</span>Al lado de los salones de física en el segundo piso, una puerta con una escalera bloqueada.</div><hr>
             <div class="opciones opcion3"><span class="option">Opción 3:</span>Cerca de los laboratorios de química.<hr></div></div>
@@ -142,6 +142,11 @@
             <br />
             <br />
           </p>
+          <div class="aclaracion"><p>
+             <span class="howTo">Cómo responder?</span>
+            Colocá todo en minúsculas, sin acentos. Ejemplo: <span class="option-example"> opcion 1 / opcion 2 / opcion 3.<br></span>
+            <span class="minierror">Si pones una respuesta incorrecta, puede que tengas que recargar la página para poder volver a responder</span>
+          </p></div>
           <form action="">
             <input
               type="text"
@@ -151,8 +156,10 @@
             />
           </form>
           <button class="btn">Enviar Respuesta</button>
+          
           <br />
           <br />
+          
           <div class="resultado"></div>
           <div class="pista-unlocked"></div>
           

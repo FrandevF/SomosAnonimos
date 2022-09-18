@@ -586,12 +586,12 @@ cursive; */
 #respuesta,
 .btn {
     position: relative;
-    bottom: 285px;
+    bottom: 295px;
 }
 
 .h22 {
     position: relative;
-    bottom: 70px;
+    bottom: 95px;
     color: aqua;
     letter-spacing: 3px;
 }
@@ -633,4 +633,37 @@ cursive; */
     font-family: 'Kanit',
         sans-serif;
     letter-spacing: 2px;
+}
+
+.howTo {
+    color: chocolate;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.aclaracion {
+    position: relative;
+    bottom: 380px;
+}
+
+.option-example {
+    color: #079e28;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.minierror {
+    font-size: 29.5px;
+    color: #eb004e;
+    font-style: italic;
+    font: 600;
+}
+
+.p-border {
+    position: relative;
+    bottom: 30px;
+    /* border: 1px solid rebeccapurple; */
+    box-shadow: 2px 0px 21px 21px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: 2px 0px 21px 21px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 2px 0px 21px 21px rgba(0, 0, 0, 0.66);
 }
