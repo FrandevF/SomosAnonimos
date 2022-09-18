@@ -71,3 +71,5 @@ btn.addEventListener("click", () => {
     pista.innerHTML = `<h2 class="pista-unlocked">Volvé a intentarlo, si lo haces bien desbloqueas una pista</h2>`;
   }
 });
+
+// texto animado

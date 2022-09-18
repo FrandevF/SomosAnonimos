@@ -1,14 +1,3 @@
-/* font-family: 'Amatic SC',
-cursive;
-font-family: 'Indie Flower',
-cursive;
-font-family: 'Kanit',
-sans-serif;
-font-family: 'Rubik Moonrocks',
-cursive;
-font-family: 'Shadows Into Light',
-cursive; */
-
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +28,7 @@ body {
 
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    z-index: 2000;
     letter-spacing: 1px;
 }
 
@@ -57,6 +47,7 @@ body {
         cursive;
     font-size: 45px;
     color: #9e0707;
+
     position: relative;
     right: 50px;
 }
@@ -350,7 +341,17 @@ body {
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+
+    .text {
+        display: none;
+    }
+
+    .text p {
+        display: none;
+    }
+
+
     #about-us {
         font-size: 25px;
         height: 155vh;
@@ -454,4 +455,102 @@ button {
         width: 200px;
         height: 280px;
     }
+
+
 }
+
+/* text */
+/* .text {
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    top: 200px;
+    justify-content: center;
+
+    font-size: 80px;
+    font-family: 'Shadows Into Light',
+        cursive;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: rgb(219, 78, 78);
+} */
+
+/* canvas {
+    display: block;
+    margin: auto;
+    background: rgba(158, 65, 65, 0.1);
+
+} */
+.text {
+    z-index: -1;
+    font: 400 1.3em/1.5 "Neuton";
+    background: #090d00;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 50vw;
+}
+
+.text p {
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    display: inline-block;
+    border: 4px double rgba(255, 255, 255, .8);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+}
+
+.text span {
+
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+
+    /* Clip Background Image */
+
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Animate Background Image */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    /* Activate hardware acceleration for smoother animations */
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+
+}
+
+
+/* Animate Background Image */
+
+@keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* font-family: 'Amatic SC',
+cursive;
+font-family: 'Indie Flower',
+cursive;
+font-family: 'Kanit',
+sans-serif;
+font-family: 'Rubik Moonrocks',
+cursive;
+font-family: 'Shadows Into Light',
+cursive; */
