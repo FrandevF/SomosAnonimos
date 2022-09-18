@@ -57,7 +57,7 @@ btn.addEventListener("click", () => {
   let res = respuesta.value;
   let bien = "Correcta";
   let mal = "Incorrecta";
-  if (res === "opcion 1") {
+  if (res === "opcion 2") {
     document.querySelector(
       ".resultado"
     ).innerHTML = `<p class="correcto">Respuesta: ${bien}</p>`;
