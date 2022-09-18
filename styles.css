@@ -616,3 +616,10 @@ cursive; */
 .option {
     color: burlywood;
 }
+
+.pista-tittle {
+    color: burlywood;
+    font-family: 'Kanit',
+        sans-serif;
+    letter-spacing: 2px;
+}
