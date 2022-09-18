@@ -663,7 +663,7 @@ cursive; */
     position: relative;
     bottom: 30px;
     /* border: 1px solid rebeccapurple; */
-    box-shadow: 2px 0px 21px 21px rgba(0, 0, 0, 0.66);
-    -webkit-box-shadow: 2px 0px 21px 21px rgba(0, 0, 0, 0.66);
-    -moz-box-shadow: 2px 0px 21px 21px rgba(0, 0, 0, 0.66);
+    box-shadow: 2px 0px 21px 14px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 2px 0px 21px 14px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 2px 0px 21px 14px rgba(0, 0, 0, 0.46);
 }
