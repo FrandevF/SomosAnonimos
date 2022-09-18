@@ -415,7 +415,7 @@ button {
 .resultado {
     position: relative;
     margin: 0 auto;
-    bottom: 90px;
+    bottom: 360px;
     font-weight: 900;
     letter-spacing: 3px;
     font-size: 45px;
@@ -554,3 +554,65 @@ font-family: 'Rubik Moonrocks',
 cursive;
 font-family: 'Shadows Into Light',
 cursive; */
+
+.opciones {
+    color: rgba(65, 1, 1, 0.9);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.adivinanzaL {
+    position: relative;
+    bottom: 140px;
+}
+
+.instr {
+    font-family: 'Kanit',
+        sans-serif;
+    letter-spacing: 2px;
+}
+
+#respuesta,
+.btn {
+    position: relative;
+    bottom: 285px;
+}
+
+.h22 {
+    position: relative;
+    bottom: 70px;
+    color: aqua;
+    letter-spacing: 3px;
+}
+
+.pista-unlocked {
+    position: relative;
+    bottom: 180px;
+    color: aqua;
+    letter-spacing: 3px;
+}
+
+.pista {
+    position: relative;
+    bottom: 200px;
+    color: rgb(44, 185, 98);
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.pista-1 {
+    position: relative;
+    bottom: 250px;
+    color: rgb(93, 190, 130);
+    letter-spacing: 3px;
+}
+
+.pista-img {
+    position: relative;
+    bottom: 250px;
+}
+
+.option {
+    color: burlywood;
+}
