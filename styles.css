@@ -133,6 +133,8 @@ body {
 .menu__img {
     display: block;
     width: 36px;
+    position: relative;
+    right: 15px;
 }
 
 .logo {
@@ -244,7 +246,7 @@ body {
 
 .menu__img {
     position: relative;
-    left: 30px;
+    left: 23px;
 }
 
 @media (max-width: 800px) {
