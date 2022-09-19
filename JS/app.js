@@ -79,7 +79,7 @@ codeBtn.addEventListener("click", () => {
   let res = respuesta2.value;
   let bien = "Correcto";
   let mal = "Incorrecto";
-  if (res === "opcion 2") {
+  if (res === "8BUkv9") {
     document.querySelector(
       ".codeRes"
     ).innerHTML = `<p class="correcto2">Código: ${bien}, A continuación sigue la historia...</p><br><br><br>
