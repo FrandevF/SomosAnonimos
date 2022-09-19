@@ -61,9 +61,9 @@ btn.addEventListener("click", () => {
     document.querySelector(
       ".resultado"
     ).innerHTML = `<p class="correcto">Respuesta: ${bien}</p>`;
-    pista.innerHTML = `<h2 class="pista-unlocked">Pista desbloqueada</h2>
+    pista.innerHTML = `<h2 class="pista-unlocked pista-h2">Pista desbloqueada</h2>
     <p class="pista">Pista: 1</p>
-    <p class="pista-1">Sí, es ese lugar, acá te dejo una foto para que te ubiques bien, allí vas a poder encontrar un código, el cual deberas colocar más abajo.</p><br><img src="assets/place.png" alt="pista1" class="pista-img">`;
+    <p class="pista-1">Sí, es ese lugar, acá te dejo una foto para que te ubiques bien, allí vas a poder encontrar un código, el cual deberas colocar más abajo.</p><br> <div class="imagenes-correctas"><img src="assets/muerto.webp" alt="pista1" class="pista-img"><img src="assets/muerto1.webp" alt="pista1" class="pista-img"><img src="assets/muerto2.webp" alt="pista1" class="pista-img"></div>`;
   } else {
     document.querySelector(
       ".resultado"
