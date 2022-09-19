@@ -924,7 +924,7 @@ button {
     #susCards {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 500px 500px 400px;
+        grid-template-rows: 400px 450px 400px 380px;
         gap: 20px;
         grid-template-areas: "img1""img2""img3""img4";
         grid-auto-flow: row;
