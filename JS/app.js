@@ -71,5 +71,20 @@ btn.addEventListener("click", () => {
     pista.innerHTML = `<h2 class="pista-unlocked">Volvé a intentarlo, si lo haces bien desbloqueas una pista</h2>`;
   }
 });
-
-// texto animado
+const respuesta2 = document.getElementById("code");
+const code = document.getElementById("code");
+const codeBtn = document.querySelector(".codeBtn");
+codeBtn.addEventListener("click", () => {
+  let res = respuesta2.value;
+  let bien = "Correcto";
+  let mal = "Incorrecto";
+  if (res === "opcion 2") {
+    document.querySelector(
+      ".codeRes"
+    ).innerHTML = `<p class="correcto">Código: ${bien}</p>`;
+  } else {
+    document.querySelector(
+      ".codeRes"
+    ).innerHTML = `<p class="incorrecto">Código: ${mal}</p>`;
+  }
+});

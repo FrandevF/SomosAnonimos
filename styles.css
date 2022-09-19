@@ -770,3 +770,14 @@ cursive; */
     }
 
 }
+
+.codigo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 300px;
+    margin-bottom: 250px;
+}
